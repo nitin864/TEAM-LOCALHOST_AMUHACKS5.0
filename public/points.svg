@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Outer Star -->
+  <path d="M100 30 L115 75 L162 75 L125 105 L140 150 L100 120 L60 150 L75 105 L38 75 L85 75 Z" 
+        fill="#f97316" stroke="#ea580c" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Inner Star Highlight -->
+  <path d="M100 50 L108 80 L138 80 L115 98 L123 128 L100 110 L77 128 L85 98 L62 80 L92 80 Z" 
+        fill="#fb923c" opacity="0.8"/>
+  
+  <!-- Center Gem -->
+  <circle cx="100" cy="95" r="15" fill="#fef3c7"/>
+  
+  <!-- Sparkles -->
+  <circle cx="85" cy="55" r="3" fill="#fef3c7"/>
+  <circle cx="115" cy="55" r="3" fill="#fef3c7"/>
+  <circle cx="70" cy="100" r="2.5" fill="#fed7aa"/>
+  <circle cx="130" cy="100" r="2.5" fill="#fed7aa"/>
+  
+  <!-- Small stars decoration -->
+  <path d="M50 50 L52 55 L57 55 L53 58 L55 63 L50 60 L45 63 L47 58 L43 55 L48 55 Z" 
+        fill="#fbbf24" opacity="0.7"/>
+  <path d="M150 130 L152 135 L157 135 L153 138 L155 143 L150 140 L145 143 L147 138 L143 135 L148 135 Z" 
+        fill="#fbbf24" opacity="0.7"/>
+</svg>

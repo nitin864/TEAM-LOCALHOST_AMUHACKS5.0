@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Main Heart -->
+  <path d="M100 170 Q100 170 60 130 Q40 110 40 85 Q40 60 60 50 Q80 40 100 60 Q120 40 140 50 Q160 60 160 85 Q160 110 140 130 Q100 170 100 170 Z" 
+        fill="#ef4444" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Heart Highlight -->
+  <path d="M75 70 Q85 65 90 75 Q90 85 85 90 Q80 95 75 90 Q70 85 70 75 Q70 65 75 70 Z" 
+        fill="#fca5a5" opacity="0.7"/>
+  
+  <!-- Shine Effect -->
+  <ellipse cx="80" cy="80" rx="15" ry="25" fill="#fef2f2" opacity="0.5" transform="rotate(-20 80 80)"/>
+  
+  <!-- Small hearts around -->
+  <path d="M45 45 Q45 45 35 35 Q30 30 30 23 Q30 16 35 13 Q40 10 45 18 Q50 10 55 13 Q60 16 60 23 Q60 30 55 35 Q45 45 45 45 Z" 
+        fill="#f87171" opacity="0.6"/>
+  <path d="M155 160 Q155 160 148 153 Q145 150 145 145 Q145 140 148 138 Q151 136 155 141 Q159 136 162 138 Q165 140 165 145 Q165 150 162 153 Q155 160 155 160 Z" 
+        fill="#f87171" opacity="0.6"/>
+  
+  <!-- Sparkles -->
+  <circle cx="130" cy="60" r="3" fill="#fef2f2"/>
+  <circle cx="70" cy="120" r="2.5" fill="#fef2f2"/>
+  <circle cx="140" cy="110" r="2" fill="#fca5a5"/>
+</svg>

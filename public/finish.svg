@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Trophy Cup -->
+  <path d="M60 80 L60 120 Q60 140 80 145 L80 160 L120 160 L120 145 Q140 140 140 120 L140 80 Z" 
+        fill="#fbbf24" stroke="#f59e0b" stroke-width="3"/>
+  
+  <!-- Trophy Handles -->
+  <path d="M60 85 Q45 85 45 100 Q45 115 60 115" 
+        fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M140 85 Q155 85 155 100 Q155 115 140 115" 
+        fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Trophy Base -->
+  <rect x="70" y="160" width="60" height="8" rx="4" fill="#f59e0b"/>
+  <rect x="60" y="168" width="80" height="12" rx="6" fill="#f59e0b"/>
+  
+  <!-- Trophy Shine -->
+  <ellipse cx="85" cy="100" rx="12" ry="20" fill="#fef3c7" opacity="0.6"/>
+  
+  <!-- Stars around trophy -->
+  <path d="M100 45 L105 60 L120 60 L108 70 L113 85 L100 75 L87 85 L92 70 L80 60 L95 60 Z" 
+        fill="#fbbf24"/>
+  <circle cx="40" cy="60" r="4" fill="#fbbf24"/>
+  <circle cx="160" cy="60" r="4" fill="#fbbf24"/>
+  <circle cx="35" cy="90" r="3" fill="#fde68a"/>
+  <circle cx="165" cy="90" r="3" fill="#fde68a"/>
+</svg>
