@@ -39,8 +39,10 @@ export const Sidebar = ({ className }: SidebarProps) => {
         <SidebarItem label="LeaderBoard" href="/leaderboard" iconSrc="/leader.png" />
         <SidebarItem label="Quest" href="/quests" iconSrc="/quests.png" />
         <SidebarItem label="Shop" href="/shop" iconSrc="/store.png" />
+        <SidebarItem label="AI Coach" href="/aicoach" iconSrc="/bot.png" />
         <SidebarItem label="Constitution & Rights" href="/consti" iconSrc="/consti.png" />
         <SidebarItem label="Civic Duties" href="/civic" iconSrc="/civic.png" />
+        
       </div>
 
       {/* User */}
