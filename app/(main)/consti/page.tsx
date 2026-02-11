@@ -142,7 +142,141 @@ const rightsData: Right[] = [
       "If arrested, you must be told why and have access to a lawyer.",
     category: "Legal Right",
   },
-
+  {
+    id: 16,
+    title: "Right to Information (RTI Act)",
+    originalText:
+      "Citizens have the right to request information from public authorities.",
+    simplified:
+      "You can ask the government for information and they must reply.",
+    category: "Civil Right",
+  },
+  {
+    id: 17,
+    title: "Right to Vote",
+    originalText:
+      "Every citizen above 18 years has the right to vote in elections.",
+    simplified:
+      "You can choose your leaders after turning 18.",
+    category: "Civil Right",
+  },
+  {
+    id: 18,
+    title: "Right to Privacy",
+    originalText:
+      "The Right to Privacy is protected as part of Article 21 by the Supreme Court.",
+    simplified:
+      "Your personal data and life are private.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 19,
+    title: "Consumer Protection Right",
+    originalText:
+      "Consumers have the right to safety, information, and redressal under the Consumer Protection Act.",
+    simplified:
+      "You can complain if you are cheated by a seller.",
+    category: "Legal Right",
+  },
+  {
+    id: 20,
+    title: "Right Against Exploitation (Article 23)",
+    originalText:
+      "Traffic in human beings and forced labour are prohibited.",
+    simplified:
+      "No one can force you to work without pay.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 21,
+    title: "Child Labour Prohibition (Article 24)",
+    originalText:
+      "No child below the age of fourteen shall be employed in hazardous work.",
+    simplified:
+      "Children cannot be made to work in dangerous jobs.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 22,
+    title: "Freedom of Religion (Article 25)",
+    originalText:
+      "All persons are equally entitled to freedom of conscience and religion.",
+    simplified:
+      "You can follow any religion you like.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 23,
+    title: "Cultural & Educational Rights (Article 29)",
+    originalText:
+      "Any section of citizens with a distinct culture has the right to preserve it.",
+    simplified:
+      "You can protect your language and culture.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 24,
+    title: "Right to Constitutional Remedies (Article 32)",
+    originalText:
+      "The right to move the Supreme Court for enforcement of fundamental rights.",
+    simplified:
+      "You can go directly to court if your rights are violated.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 25,
+    title: "Right to Legal Aid",
+    originalText:
+      "Free legal aid is provided to ensure justice is not denied due to financial constraints.",
+    simplified:
+      "If you can’t afford a lawyer, the government provides one.",
+    category: "Legal Right",
+  },
+  {
+    id: 26,
+    title: "Right to Clean Environment",
+    originalText:
+      "Recognized under Article 21 as part of the right to life.",
+    simplified:
+      "You have the right to live in a clean and healthy environment.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 27,
+    title: "Right to Shelter",
+    originalText:
+      "Recognized by courts as part of the right to life under Article 21.",
+    simplified:
+      "Everyone deserves a basic place to live.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 28,
+    title: "Right to Health",
+    originalText:
+      "Health is recognized as essential under Article 21 by judiciary interpretation.",
+    simplified:
+      "You have the right to access basic healthcare.",
+    category: "Fundamental Right",
+  },
+  {
+    id: 29,
+    title: "Right to Public Hearing",
+    originalText:
+      "Citizens can participate in public hearings regarding policies and development.",
+    simplified:
+      "You can raise your voice in public decision-making.",
+    category: "Civil Right",
+  },
+  {
+    id: 30,
+    title: "Right to File FIR",
+    originalText:
+      "Any person can file an FIR at a police station for a cognizable offence.",
+    simplified:
+      "You can report a crime to the police and they must register it.",
+    category: "Legal Right",
+  }
 ];
 
 export default function ConstitutionPage() {
