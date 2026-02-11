@@ -10,6 +10,7 @@ import {
 } from "@/db/queries";
 import { redirect } from "next/navigation";
 import { Unit } from "./unit";
+import AiSide from "@/components/ai";
 
 const LearnPage = async () => {
   const [
@@ -60,7 +61,9 @@ const LearnPage = async () => {
           points={userProgress.points}
           hasActiveSubscription={false}
         />
+        <AiSide/>
       </StickyWrapper>
+      
     </div>
   );
 };
