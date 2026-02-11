@@ -14,9 +14,18 @@ import {
 import { Button } from "@/components/ui/button";
 import { useExitModal } from "@/store/user-exit-modal";
 
-export const ExitModal = () => {
+interface ExitModalProps {
+  isOpen?: boolean;
+  onClose?: () => void;
+}
+
+export const ExitModal = ({ isOpen: isOpenProp, onClose: onCloseProp }: ExitModalProps = {}) => {
   const router = useRouter();
-  const { isOpen, close } = useExitModal();
+  const { isOpen: isOpenHook, close: closeHook } = useExitModal();
+  
+  // Use props if provided, otherwise fall back to hook
+  const isOpen = isOpenProp !== undefined ? isOpenProp : isOpenHook;
+  const close = onCloseProp || closeHook;
 
   const handleExit = () => {
     close();
