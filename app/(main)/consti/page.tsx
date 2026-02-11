@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
-
+import './consti.css'
 type Category = "Fundamental Right" | "Legal Right" | "Civil Right";
 interface Right {
   id: number;
