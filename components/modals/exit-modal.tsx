@@ -1,3 +1,4 @@
+// components/modals/exit-modal.tsx
 "use client";
 
 import { useRouter } from "next/navigation";
@@ -11,22 +12,19 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import { useExitModal } from "@/store/user-exit-modal";
 
-type ExitModalProps = {
-  isOpen: boolean;
-  onClose: () => void;
-};
-
-export const ExitModal = ({ isOpen, onClose }: ExitModalProps) => {
+export const ExitModal = () => {
   const router = useRouter();
+  const { isOpen, close } = useExitModal();
 
   const handleExit = () => {
-    onClose();
+    close();
     router.push("/learn");
   };
 
   return (
-    <Dialog open={isOpen} onOpenChange={onClose}>
+    <Dialog open={isOpen} onOpenChange={close}>
       <DialogContent className="max-w-md">
         <DialogHeader>
           <div className="flex items-center w-full justify-center mb-5">
@@ -51,7 +49,7 @@ export const ExitModal = ({ isOpen, onClose }: ExitModalProps) => {
               variant="secondary"
               className="w-full"
               size="lg"
-              onClick={onClose}
+              onClick={close}
             >
               Keep learning
             </Button>
