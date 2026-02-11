@@ -335,7 +335,7 @@ TEAM-LOCALHOST_AMUHACKS5.0/
 │   │   ├── shop/            # In-app store
 │   │   └── aicoach/         # AI chatbot page
 │   ├── (marketing)/         # Landing pages
-│   ├── admin/               # Admin dashboard
+│   |
 │   └── lesson/              # Quiz interface
 ├── actions/                  # Server Actions
 │   ├── challenge-progress.ts
