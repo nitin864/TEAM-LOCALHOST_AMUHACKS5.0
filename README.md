@@ -129,10 +129,8 @@ Civic Learn transforms civic education through:
 - **Motivation System**: Continuous engagement through rewards
 
 ### 🎯 User Experience
-- **Dark Mode Support**: Comfortable viewing in any lighting
-- **Responsive Design**: Seamless experience on mobile, tablet, and desktop
-- **Offline Capability**: Learn even without internet (PWA features)
-- **Fast Loading**: Optimized performance with Next.js
+ - **Responsive Design**: Seamless experience on mobile, tablet, and desktop
+ - **Fast Loading**: Optimized performance with Next.js
 
 ---
 
