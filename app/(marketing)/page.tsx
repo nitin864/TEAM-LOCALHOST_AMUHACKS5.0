@@ -329,15 +329,9 @@ export default function Home() {
                 Ready to Start Your Journey?
               </h2>
               <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-                Join over 50,000 learners building better communities through civic education
+                Join with learners building better communities through civic education
               </p>
-              <Button
-                size="lg"
-                className="bg-white text-green-600 hover:bg-green-50 rounded-full px-10 py-7 text-xl font-bold shadow-2xl hover:shadow-white/50 hover:-translate-y-1 transition-all"
-              >
-                Get Started — It's Free
-                <ArrowRight className="ml-2 w-6 h-6" />
-              </Button>
+               
             </div>
           </motion.div>
         </section>
