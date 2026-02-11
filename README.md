@@ -244,9 +244,9 @@ Civic Learn transforms civic education through:
 
 - **Node.js** 18.x or higher
 - **npm** or **yarn**
-- **PostgreSQL** database (Neon recommended)
+- **PostgreSQL** database (Supabase recommended)
 - **Clerk** account for authentication
-- **AI API Key** (Hugging Face / OpenAI / Gemini)
+- **AI API Key** (Gemini)
 
 ### Installation
 
