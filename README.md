@@ -486,4 +486,6 @@ export async function upsertChallengeProgress(challengeId: number) {
 
 [🏠 Homepage](https://civic-learn-eight.vercel.app) • [📚 Docs](#) • [🐛 Report Bug](https://github.com/nitin864/TEAM-LOCALHOST_AMUHACKS5.0/issues) • [💡 Request Feature](https://github.com/nitin864/TEAM-LOCALHOST_AMUHACKS5.0/issues)
 
+#AMUHACKS5.0 #CSSAMU #CSDAMU #AMU
+
 </div>
