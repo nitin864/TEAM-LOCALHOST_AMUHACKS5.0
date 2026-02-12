@@ -42,7 +42,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
         <SidebarItem label="AI Coach" href="/aicoach" iconSrc="/bot.png" />
         <SidebarItem label="Constitution & Rights" href="/consti" iconSrc="/consti.png" />
         <SidebarItem label="Civic Duties" href="/civic" iconSrc="/civic.png" />
-        
+        <SidebarItem label="Impact Board" href="/impact" iconSrc="/graph.png" />
       </div>
 
       {/* User */}
